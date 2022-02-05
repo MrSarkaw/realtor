@@ -1,0 +1,186 @@
+.select{
+	height: 40px;color: #131313;transition: .7s;outline: none;border:none;border-bottom:1px solid rgba(255,142,0,1.00);
+	background-color:#232323;color:rgba(255,142,0,1.00);border-top-right-radius:10px; 
+	border-top-left-radius: 10px;margin-left: 10px;margin-top: 10px;position: relative;left: 120px;
+}
+
+button{
+	border:none;background-color: #131313;outline: none;
+}
+
+	ol{
+		list-style: none;position: relative;left: -30px;
+	}
+	.smallmenu{
+		height: 300px;bordeR:1px solid rgba(255,126,0,1.00);margin-top: 10px;margin-left: 40px;
+	}
+
+	a{
+		text-decoration: none !important;
+	}
+	
+	.smallmenu > a > h5 {
+		text-align: center;background-color: rgba(255,126,0,1.00);padding: 10px;color: #131313;text-decoration: none;transition: .2s;border-radius: 10px;
+	}
+	a:hover h5{
+		background-color: #131313;color: rgba(255,126,0,1.00);bordeR:1px solid rgba(255,126,0,1.00);
+	}
+	
+.posts{
+		background-color: #1B1B1B;
+		margin-top: 10px;
+		margin-left: 0px;
+		margin-bottom: 30px;
+		border-bottom:1px solid white;border-top:1px solid white;border-radius: 20px;
+	}
+	.posts> center img{
+		width: 100%;border-radius: 20px;margin-top: 10px;height: 320px;
+	}
+	.posts  h4 {
+		padding: 10px;text-align: center;color:#131313;background-color: white;border-radius: 20px;
+	}
+	.posts a {
+		text-align: center !important;
+	}
+	#drezha{
+		background-color: rgba(255,142,0,1.00);color: white;transition: .2s;	
+		border:1px solid #131313;	
+	}
+	#drezha:hover{
+		background-color: #131313;
+		border: 1px solid rgba(255,142,0,1.00);
+	
+	
+	}
+.fgv{
+	width: 50px;height: 50px;
+}
+	
+.smallmenu a img{
+transition: .3s;border-top-left-radius: 40px;border-top-right-radius: 40px;
+	border-left:2px solid rgba(255,142,0,1.00);
+	border-right:2px solid rgba(255,142,0,1.00);
+}
+	.smallmenu:hover a img{
+transition: .3s;border-bottom-right-radius: 40px;border-bottom-left-radius: 40px;
+		border-top-left-radius: 0px;border-top-right-radius: 0px;
+}
+
+	#h5badge{position: relative;top: -310px;left: 10px; display: inline;background-color: white;color: #131313;padding: 5px;border-radius: 10px !important;}
+
+
+
+	@media only screen and (max-width:1198px){
+		.smallmenu{
+			width: 20% !important;position: relative;left: 0px;height: 300px;margin: 0px;margin-top: 10px;
+		}
+	.smallmenu a img{
+		width: 100%;
+		height: 220px !important;position: relative;
+		
+	}
+		.posts {
+			width: 40%;
+			
+		}
+	}	
+	
+	
+		
+		
+	
+	@media only screen and (max-width:1238px){
+	.select {
+		position: relative;
+		left: 60px; width: 80%;
+	}
+		.smallmenu{
+			width: 30% !important;position: relative;left: 44px;height: 300px;margin: 0px;margin-top: 10px;margin:4px;
+		}
+	.smallmenu a img{
+		width: 100%;
+		height: 220px !important;position: relative;
+		
+	}
+		.posts {
+			width: 30%;position: relative;left: 30px;margin-left: 10px;
+			
+		}
+}
+			@media only screen and (max-width:767px){
+	.select {
+		position: relative;
+		left: 60px; width: 80%;
+	}
+		.smallmenu{
+			width: 50% !important;position: relative;left: 180px;height: 400px;margin: 0px;margin-top: 10px;
+		}
+	.smallmenu a img{
+		width: 100%;
+		height: 320px !important;position: relative;
+		
+	}
+		.posts {
+			width: 40%;float: left;margin-left: 10px;
+			position: relative;left: 50px;
+			
+		}
+		
+		
+}
+	@media only screen and (max-width:600px){
+	.select {
+		position: relative;
+		left: 60px; width: 80%;
+	}
+		.smallmenu{
+			width: 70% !important;position: relative;left: 90px;height: 500px;
+		}
+	.smallmenu a img{
+		width: 100%;
+		height: 440px !important;position: relative;
+		
+	}
+		
+}
+	
+.fgv{width: 50px;height: 50px; margin: 5px;transition: .5s}
+	.fgv:hover{transform: rotate(360deg)}
+	
+
+@media only screen and (max-width:564px){
+	.select {
+		position: relative;
+		left: -6px; width: 100%;
+	}
+		.smallmenu{
+			width: 60% !important;position: relative;left: 110px;height: 360px;
+		}
+	.smallmenu a img{
+		width: 100%;
+		height: 300px !important;position: relative;left: 0px;
+		
+	}
+	.posts{
+		width: 80%;position: relative;
+		left: 50px;margin-left: 0px;
+	}
+}
+	@media only screen and (max-width:414px){
+	.select {
+		position: relative;
+		left: -6px; width: 100%;
+	}
+		.smallmenu{
+			width: 100% !important;position: relative;left: 10px;height: 360px;
+		}
+	.smallmenu a img{
+		width: 100%;
+		height: 300px !important;position: relative;left: 0px;
+		
+	}
+	.posts{
+		width: 100%;position: relative;
+		left: 0px;margin-left: 0px;
+	}
+		}

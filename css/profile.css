@@ -1,0 +1,202 @@
+.user{
+		margin: 10px;line-height: 40px;
+	}
+	.user p img{
+		height: 100px;margin:10px;width: 34%;
+	}
+
+	.posts> center img{
+		width: 100%;border-radius: 20px;margin-top: 10px;height: 320px;
+	}
+	.posts  h4 {
+		padding: 10px;text-align: center;color:#131313;background-color: white;border-radius: 20px;
+	}
+	.posts a {
+		text-align: center !important;
+	}
+	#drezha{
+		background-color: rgba(255,142,0,1.00);color: white;transition: .2s;
+	}
+	#drezha:hover{
+		background-color: #131313;
+		border:1px solid rgba(255,142,0,1.00);	
+	
+	}
+
+.posts{
+		background-color: #131313;
+		margin:20px;margin-top: 0px;
+		border-bottom:1px solid white;border-top:1px solid white;border-radius: 20px;
+	transition:.3s;margin-left: 40px;
+	}
+	.posts:hover{
+		border-color:rgba(255,142,0,1.00);
+	}
+	.posts> center img{
+		width: 100%;border-radius: 20px;margin-top: 10px;height: 230px;
+	}
+	.posts  h4 {
+		padding: 5px;text-align: center;color:#131313;background-color: white;border-radius: 20px;font-size: 15px;
+	}
+	.posts a {
+		text-align: center !important;text-decoration: none;
+	}
+	#drezha{
+		background-color: rgba(255,142,0,1.00);color: white;transition: .2s;
+		border:1px solid #131313;	
+	}
+	#drezha:hover{
+		background-color: #131313;border:1px solid rgba(255,142,0,1.00);	
+		
+	
+	}
+	.posts span{
+		font-size: 13px;
+	}
+	.posts span img{
+		width: 20px;height: 20px;
+	}
+	a {
+		text-decoration: none;
+	}
+	#h5badge{
+			position: relative;top: -220px;left: 10px; display: inline;background-color: white;color: #131313;padding: 5px;border-radius: 10px !important;transition: .3s;
+	}
+	.posts:hover #h5badge{
+		background-color:rgba(255,142,0,1.00); 
+	}
+
+	button {
+		border:none;padding: 4px;margin-bottom: 10px;
+	}
+	input , select{
+		width: 80%;text-align: center;color: #131313;border: none;padding: 5px;margin: 10px;outline: none;border:1px solid white;transition: .3s;border-top-left-radius: 20px;
+		
+	}
+	input:focus , select:focus{
+		border: 1px solid rgba(255,142,0,1.00);
+		border-bottom-right-radius: 20px;
+		border-top-left-radius: 0px;
+	}
+		#editprofile h4 , #editprofile h5 {
+	color: #131313;
+		
+	}
+	
+	#editprofile input {
+		border:1px solid black;
+	}
+	
+	
+	
+.fgv{width: 50px;height: 50px; margin: 5px;transition: .5s}
+	.fgv:hover{transform: rotate(360deg)}
+
+
+
+	@media only screen and (max-width:1366px){
+		.posts{
+			position: relative;left:30px !important;width: 35% !important;
+		}
+			.posts> center img{
+		width: 100%;border-radius: 20px;margin-top: 10px;height: 270px;
+	}
+		#h5badge{
+			position: relative;top: -260px !important;
+	}
+	}
+	
+		@media only screen and (max-width:1400px){
+		.posts{
+			position: relative;left:0px !important;width: 25% !important;
+		}
+			.posts> center img{
+		width: 100%;border-radius: 20px;margin-top: 10px;height: 200px;
+	}
+		#h5badge{
+			position: relative;top: -190px !important;
+	}
+	}
+	
+	
+	
+		
+	@media only screen and (max-width:1124px){
+		.posts{
+			width: 40% !important;position: relative;left: 50px !important;margin-left: 0px;
+		}
+		.posts center img {
+			 height: 200px !important;
+		}
+			#h5badge{
+			position: relative;top: -190px !important;
+	}
+		h5{
+			line-height: 30px;
+		}
+		.user p img{
+		height: 60px;margin:10px;width: 34%;
+	}
+	}	
+	@media only screen and (max-width:767px){
+		.posts{
+
+			width: 40% !important;position: relative;left: 40px !important;margin-left: 6px;float: left;background-color: #414141;
+		}
+		.posts center img {
+			 height: 200px !important;
+		}
+			#h5badge{
+			position: relative;top: -190px !important;clear: both;
+	}
+		h5{
+			line-height: 30px;
+		}
+		.user p img{
+		height: 200px;margin:10px;width: 34%;
+	}
+	}	
+		@media only screen and (max-width:500px){
+		.posts{
+
+			width: 80% !important;position: relative;left: 40px !important;margin-left: 0px;float: left;background-color: #414141;
+		}
+		.posts center img {
+			 height: 200px !important;
+		}
+			#h5badge{
+			position: relative;top: -190px !important;clear: both;
+	}
+		h5{
+			line-height: 30px;
+		}
+		.user p img{
+		height: 200px;margin:10px;width: 34%;
+	}
+	}	
+	
+	@media only screen and (max-width:600px){
+		.posts{
+			width: 40%;float: left;position: relative;left: 20px;
+		}
+		#pagintion{
+			clear: both;
+		}
+	}
+	
+	
+		@media only screen and (max-width:414px){
+			.user center img  {
+				height: 150px ;width: 50%;
+			}
+		.posts{
+			width: 100% !important;float: left;position: relative;left: 0px !important;background-color: #414141;
+		}
+		#pagintion{
+			clear: both;
+		}
+			#nametag{
+				width: 40px;height: 40px;
+			}
+			
+	}	
